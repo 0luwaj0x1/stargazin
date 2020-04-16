@@ -7,7 +7,10 @@ class Filters extends Component {
   }
 
   handleChange = (evt) => {
-    this.props.search(evt.target.value)
+    this.setState({
+      search: evt.target.value
+    })
+    this.props.search(this.state.search)
   }
 
   handleStarSort = (evt) => {
@@ -30,7 +33,7 @@ class Filters extends Component {
           <span className="checkmark"></span>
         </label>
 
-        <input className="filter-input" onChange={this.handleChange} placeholder="Enter word to filter" />
+        <input className="filter-input" value={this.state.search} onChange={this.handleChange} placeholder="Enter word to filter" />
       </div>
     );
   }
