@@ -9,38 +9,29 @@ class App extends Component {
     page: 1,
     loading: true,
     searchTerm:'',
+    error: ''
   };
 
   componentDidMount() {
     fetchRepositories(this.state.page)
-      .then((result) => {
-        this.mergeData(result);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+      .then((result) => this.mergeData(result))
+      .catch((error) => this.setState({error: error.message}));
   }
 
   loadMore = () => {
     this.setState({ loading: true });
     fetchRepositories(this.state.page)
       .then((result) => this.mergeData(result))
-      .catch((error) => {
-        console.log(error);
-      });
+      .catch((error) => this.setState({error: error.message}));
   };
 
   searchFilter = (search) => {
-    this.setState({
-      searchTerm: search
-    })
+    this.setState({  searchTerm: search })
   }
 
   sortStar = (filter) => {
     const sorted = sortArray(this.state.repos, filter)
-    this.setState({
-      repos: [...sorted]
-    })
+    this.setState({  repos: [...sorted] })
   }
 
   mergeData = (resposne) => {
