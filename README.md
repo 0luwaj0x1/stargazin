@@ -32,6 +32,8 @@ The App Breakdown.
 
 7. All the helper function can be found in the utils folder.  
 
+8. Deplyed on Github pages.
+
 
 
 # stargazin
