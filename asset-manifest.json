@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/stargazin/static/css/main.fe7c82f3.chunk.css",
+    "main.js": "/stargazin/static/js/main.7c3ebb90.chunk.js",
+    "main.js.map": "/stargazin/static/js/main.7c3ebb90.chunk.js.map",
+    "runtime-main.js": "/stargazin/static/js/runtime-main.571750ad.js",
+    "runtime-main.js.map": "/stargazin/static/js/runtime-main.571750ad.js.map",
+    "static/js/2.56d344b8.chunk.js": "/stargazin/static/js/2.56d344b8.chunk.js",
+    "static/js/2.56d344b8.chunk.js.map": "/stargazin/static/js/2.56d344b8.chunk.js.map",
+    "index.html": "/stargazin/index.html",
+    "precache-manifest.e43f53a2d7a4a9c5fecb4959ffaf5d57.js": "/stargazin/precache-manifest.e43f53a2d7a4a9c5fecb4959ffaf5d57.js",
+    "service-worker.js": "/stargazin/service-worker.js",
+    "static/css/main.fe7c82f3.chunk.css.map": "/stargazin/static/css/main.fe7c82f3.chunk.css.map",
+    "static/js/2.56d344b8.chunk.js.LICENSE.txt": "/stargazin/static/js/2.56d344b8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.571750ad.js",
+    "static/js/2.56d344b8.chunk.js",
+    "static/css/main.fe7c82f3.chunk.css",
+    "static/js/main.7c3ebb90.chunk.js"
+  ]
+}
