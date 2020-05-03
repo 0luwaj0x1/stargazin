@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "027e0d8f4958f6b1fb87d684eca1c409",
+    "revision": "e8867573679515459b1b51e6e23401e4",
     "url": "/stargazin/index.html"
   },
   {
-    "revision": "92d146aef3ffb7e225b1",
-    "url": "/stargazin/static/css/main.fe7c82f3.chunk.css"
+    "revision": "b680ab7dfe3dcbbca340",
+    "url": "/stargazin/static/css/main.e577428b.chunk.css"
   },
   {
     "revision": "2c5dc0fec90ad9d8af67",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stargazin/static/js/2.56d344b8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "92d146aef3ffb7e225b1",
-    "url": "/stargazin/static/js/main.7c3ebb90.chunk.js"
+    "revision": "b680ab7dfe3dcbbca340",
+    "url": "/stargazin/static/js/main.787217f8.chunk.js"
   },
   {
     "revision": "282157f233696802e38e",
