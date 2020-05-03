@@ -140,3 +140,23 @@ body {
   border-radius: 50%;
   background: white;
 }
+
+
+@media screen and (max-width: 667px) {
+
+  body{
+    padding: 0 2rem;
+  }
+  .repos {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+  .filters {
+    flex-direction: column;
+  }
+  .checkmark {
+    left: 35%;
+  }
+  .check-container {
+    text-align: center;
+  }
+}
